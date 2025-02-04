@@ -14,13 +14,13 @@
 
 > **Abstract:** Diffusion models (DMs) have significantly advanced the development of real-world image super-resolution (Real-ISR), but the computational cost of multi-step diffusion models limits their application. One-step diffusion models generate high-quality images in a one sampling step, greatly reducing computational overhead and inference latency. However, most existing one-step diffusion methods are constrained by the performance of the teacher model, where poor teacher performance results in image artifacts. To address this limitation, we propose FluxSR, a novel one-step diffusion Real-ISR technique based on flow matching models. We use the state-of-the-art diffusion model FLUX.1-dev as both the teacher model and the base model. First, we introduce Flow Trajectory Distillation (FTD) to distill a multi-step flow matching model into a one-step Real-ISR. Second, to improve image realism and address high-frequency artifact issues in generated images, we propose TV-LPIPS as a perceptual loss and introduce Attention Diversification Loss (ADL) as a regularization term to reduce token similarity in transformer, thereby eliminating high-frequency artifacts. Comprehensive experiments demonstrate that our method outperforms existing one-step diffusion-based Real-ISR methods.
 
-### Pipeline
-
-![](figs/pipeline.png)
+![](figs/teaser.png)
 
 ---
 
-![](figs/teaser.png)
+### Pipeline
+
+![](figs/pipeline.png)
 
 ---
 
@@ -44,7 +44,7 @@
 
 We achieve impressive performance on GIQA-DES and GIQA-VQA tasks.
 
-<details open>
+<details>
 <summary>Quantitative Results (click to expand)</summary>
 
 - Results in Table 1 of the main paper
@@ -52,7 +52,6 @@ We achieve impressive performance on GIQA-DES and GIQA-VQA tasks.
 <p align="center">
   <img width="900" src="figs/table1.png">
 </p>
-</details>
 
 - Results in Table 2 (RealSet65 testset) of the main paper
 
@@ -62,10 +61,10 @@ We achieve impressive performance on GIQA-DES and GIQA-VQA tasks.
 </details>
 
 
-<details open>
+<details>
 <summary>Qualitative Results (click to expand)</summary>
 
-- Results in Fig. 5 of the main paper
+- Results in Figure 5 of the main paper
 
 <p align="center">
   <img width="900" src="figs/visual.png">
