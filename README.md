@@ -2,7 +2,7 @@
 
 [Jianze Li], [Jiezhang Cao](https://www.jiezhangcao.com/), [Wenbo Li](https://fenglinglwb.github.io/), [Yong Guo](https://www.guoyongcs.com/), and [Yulun Zhang](http://yulunzhang.com/), "One Diffusion Step to Real-World Super-Resolution via Flow Trajectory Distillation", 2025
 
-[[project]] [[arXiv]] [[supplementary material]] [pretrained models]
+[[project]] [[arXiv]] [supplementary material] [pretrained models]
 
 
 
@@ -16,11 +16,11 @@
 
 ### Pipeline
 
-![](figs/Pipeline.png)
+![](figs/pipeline.png)
 
 ---
 
-![](figs/Example.png)
+![](figs/teaser.png)
 
 ---
 
@@ -29,7 +29,6 @@
 - [ ] Release testing code and pre-trained models.
 - [ ] Release training code. 
 - [ ] Release pre-trained models.
-- [ ] Provide WebUI.
 - [ ] Provide HuggingFace demo.
 
 ## 🔗 Contents
@@ -43,6 +42,37 @@
 
 ## <a name="results"></a>🔎 Results
 
+We achieve impressive performance on GIQA-DES and GIQA-VQA tasks.
+
+<details open>
+<summary>Quantitative Results (click to expand)</summary>
+
+- Results in Table 1 of the main paper
+
+<p align="center">
+  <img width="900" src="figs/table1.png">
+</p>
+</details>
+
+- Results in Table 2 (RealSet65 testset) of the main paper
+
+<p align="center">
+  <img width="450" src="figs/table2.png">
+</p>
+</details>
+
+
+<details open>
+<summary>Qualitative Results (click to expand)</summary>
+
+- Results in Fig. 5 of the main paper
+
+<p align="center">
+  <img width="900" src="figs/visual.png">
+</p>
+
+
+</details>
 
 ## <a name="citation"></a>📎 Citation
 
@@ -54,4 +84,4 @@ If you find the code helpful in your research or work, please cite the following
 
 ## <a name="acknowledgements"></a>💡 Acknowledgements
 
-This project is based on .
+This project is based on [FLUX](https://github.com/black-forest-labs/flux).
