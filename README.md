@@ -2,7 +2,7 @@
 
 [Jianze Li], [Jiezhang Cao](https://www.jiezhangcao.com/), [Wenbo Li](https://fenglinglwb.github.io/), [Yong Guo](https://www.guoyongcs.com/), and [Yulun Zhang](http://yulunzhang.com/), "One Diffusion Step to Real-World Super-Resolution via Flow Trajectory Distillation", 2025
 
-[[project]] [[arXiv]] [supplementary material] [pretrained models]
+[[project]] [[arXiv](https://arxiv.org/abs/2502.01993)] [supplementary material] [pretrained models]
 
 
 
