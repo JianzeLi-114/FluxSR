@@ -78,7 +78,12 @@ We achieve impressive performance on GIQA-DES and GIQA-VQA tasks.
 If you find the code helpful in your research or work, please cite the following paper(s).
 
 ```
-
+@article{li2025one,
+  title={One Diffusion Step to Real-World Super-Resolution via Flow Trajectory Distillation},
+  author={Li<sup>{†}</sup>, Jianze and Cao<sup>{†}</sup>, Jiezhang and Guo, Yong and Li, Wenbo and Zhang*, Yulun},
+  journal={arXiv preprint arXiv:2502.01993},
+  year={2025}
+}
 ```
 
 ## <a name="acknowledgements"></a>💡 Acknowledgements
