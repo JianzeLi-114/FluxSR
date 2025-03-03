@@ -42,7 +42,7 @@
 
 ## <a name="results"></a>🔎 Results
 
-We achieve impressive performance on GIQA-DES and GIQA-VQA tasks.
+We achieve impressive performance on Real-world Image Super-Resolution.
 
 <details>
 <summary>Quantitative Results (click to expand)</summary>
