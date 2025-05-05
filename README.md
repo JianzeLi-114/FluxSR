@@ -1,6 +1,6 @@
 # One Diffusion Step to Real-World Super-Resolution via Flow Trajectory Distillation
 
-[Jianze Li], [Jiezhang Cao](https://www.jiezhangcao.com/), [Yong Guo](https://www.guoyongcs.com/), [Wenbo Li](https://fenglinglwb.github.io/), and [Yulun Zhang](http://yulunzhang.com/), "One Diffusion Step to Real-World Super-Resolution via Flow Trajectory Distillation", 2025
+[Jianze Li], [Jiezhang Cao](https://www.jiezhangcao.com/), [Yong Guo](https://www.guoyongcs.com/), [Wenbo Li](https://fenglinglwb.github.io/), and [Yulun Zhang*](http://yulunzhang.com/), "One Diffusion Step to Real-World Super-Resolution via Flow Trajectory Distillation", ICML, 2025
 
 [[project]] [[arXiv](https://arxiv.org/abs/2502.01993)] [supplementary material] [pretrained models]
 
@@ -78,10 +78,10 @@ We achieve impressive performance on Real-world Image Super-Resolution.
 If you find the code helpful in your research or work, please cite the following paper(s).
 
 ```
-@article{li2025one,
+@inproceedings{li2025one,
   title={One Diffusion Step to Real-World Super-Resolution via Flow Trajectory Distillation},
-  author={Li, Jianze and Cao, Jiezhang and Guo, Yong and Li, Wenbo and Zhang*, Yulun},
-  journal={arXiv preprint arXiv:2502.01993},
+  author={Li, Jianze and Cao, Jiezhang and Guo, Yong and Li, Wenbo and Zhang, Yulun},
+  booktitle={ICML},
   year={2025}
 }
 ```
