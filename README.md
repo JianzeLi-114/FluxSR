@@ -42,7 +42,7 @@
 
 ## <a name="results"></a>🔎 Results
 
-We achieve impressive performance on Real-world Image Super-Resolution.
+We achieve impressive performance on Real-world Image Super-Resolution. The full results could be downloaded here: [Google Drive](https://drive.google.com/drive/folders/1olqumLOpazfSF4TGTFplO6mF0xKIWdBI?usp=drive_link)
 
 <details>
 <summary>Quantitative Results (click to expand)</summary>
@@ -58,8 +58,23 @@ We achieve impressive performance on Real-world Image Super-Resolution.
 <p align="center">
   <img width="450" src="figs/table2.png">
 </p>
-</details>
 
+- Quantitative results (×4) on the Real-ISR testset with ground truth.
+
+| Datasets | PSNR ↑ | SSIM ↑ | LPIPS ↓ | DISTS ↓ | MUSIQ ↑ | MANIQA ↑ | TOPIQ ↑ | QAlign ↑ |
+|----------|-------|-------|--------|--------|--------|---------|--------|---------|
+| RealSR   | 24.83  | 0.7175 | 0.3200  | 0.1910  | 68.95   | 0.5335   | 0.6699  | 4.3781   |
+| DRealSR  | 25.92  | 0.7592 | 0.3418  | 0.1628  | 37.82   | 0.5310   | -       | 4.3356   |
+
+- Quantitative results (×4) on the Real-ISR testset without ground truth.
+
+| Datasets  | MUSIQ ↑ | MANIQA ↑ | TOPIQ ↑ | QAlign ↑ |
+|-----------|--------|---------|--------|---------|
+| RealLR200 |  71.60  |  0.5588  | 0.6814  |  4.4004  |
+| RealLQ250 |  72.65  |  0.5490  | 0.6848  |  4.4077  |
+
+
+</details>
 
 <details>
 <summary>Qualitative Results (click to expand)</summary>
