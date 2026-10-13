@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.venv*/
+.cache/
+.pytest_cache/
+*.egg-info/
+.DS_Store
+data/
+exp/
+outputs/
+results/
+logs/
+*.log
+# Distribute model weights and JSON assets through Hugging Face.
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.pkl
+*.lmdb/
+wandb/
+/weights/**/*.json
+prompts_10k.json
+# Local code-comment translations.
+/COMMENT_TRANSLATIONS_ZH.md

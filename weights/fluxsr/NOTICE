@@ -1,0 +1,35 @@
+FluxSR
+One Diffusion Step to Real-World Super-Resolution via Flow Trajectory Distillation
+Jianze Li, Jiezhang Cao, Yong Guo, Wenbo Li, and Yulun Zhang
+ICML 2025
+
+The FluxSR project code is licensed under the Apache License, Version 2.0
+(see LICENSE in the code package). The FLUX.1-dev base model, FluxSR LoRA
+weights, and bundled
+fixed T5/CLIP text-embedding tensors are
+separately subject to the FLUX.1 [dev] Non-Commercial License; the code
+license does not grant additional rights in those model assets.
+See the accompanying FLUX.1-dev-LICENSE.md (under licenses/ in the code
+package) for the license supplied with the base model used for this
+checkpoint.
+
+Required FLUX.1 [dev] attribution notice:
+
+The FLUX.1 [dev] Model is licensed by Black Forest Labs. Inc. under the FLUX.1 [dev] Non-Commercial License. Copyright Black Forest Labs. Inc. 
+IN NO EVENT SHALL BLACK FOREST LABS, INC. BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH USE OF THIS MODEL.
+
+Modification notice:
+FluxSR modifies FLUX.1 [dev] by training a LoRA adapter for one-step
+real-world image super-resolution using Flow Trajectory Distillation,
+TV-LPIPS, and Attention Diversification Loss.
+This FluxSR adapter is not an official product of Black Forest Labs and
+has not been endorsed, approved, or validated by Black Forest Labs.
+
+Rights to use the FLUX.1 [dev] model and its derivatives are granted
+directly by Black Forest Labs to recipients under the accompanying
+FLUX.1 [dev] Non-Commercial License.
+
+Upstream reference implementation:
+https://github.com/black-forest-labs/flux
+The upstream inference code is separately available under Apache-2.0.
+Existing third-party copyright and license notices remain applicable.
